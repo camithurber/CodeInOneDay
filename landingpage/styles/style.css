@@ -1,0 +1,86 @@
+body, h1, ul{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background-color: #ff6600;
+	height: 100px;
+	font-family: Open Sans, sans-serif;
+
+}
+h1{
+	text-align: center;
+	color: white;
+	line-height: 100px;
+
+}
+nav ul{
+	height: 60px;
+	background-color: #333;
+	margin: 0;
+	line-height: 60px;
+	font-size: 24px;
+}
+nav li{
+	font-family: Open Sans, sans-serif;
+	color: #fff;
+	display: inline-block;
+	width: 23%;
+	text-align: center;
+}
+nav ul li:hover{
+	font-weight: 800;
+
+}
+.hero{
+	background-image: url("../images/header.jpg");
+	height: 450px;
+	background-size: cover;
+}
+@media screen and (max-width: 680px){
+	nav{
+		height: 250px;
+	}
+	nav ul{
+		height: 250px;
+
+	}
+	nav ul li{
+		width: 100%;
+		border-bottom: 1px dotted white;
+	}
+}
+.sidebar{
+	border-right: 2px solid black;
+	width: 20%;
+	text-align: center;
+	height: 475px;
+	float: left;
+}
+.sidebar ul li:hover{
+	background-color: gray;
+	color: white;
+}
+.secondary li{
+	font-family: Open Sans, sans-serif;
+	color: black;
+	height: 20px;
+	padding: 20px;
+	list-style: none;
+	font-size: 20px;
+}
+
+main{
+	width: 78%;
+	height: 200px;
+	float: left;
+}
+p{
+	text-align: center;
+	font-family: Open Sans, sans-serif;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
