@@ -1,0 +1,56 @@
+h1{
+	font-size: 64px;
+	color: red;
+	background-color: #89cff0;
+	text-align: right;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.bluebackground{
+	background-color: #89cff0;
+	border:	5px solid orange;
+	padding: 15px;
+	margin: 50px;
+
+	/*comment: does not show up in content or style anything;*/
+}
+#header1{
+	font-size: 115px;
+	font-stretch: 12px;
+}
+.stuff{
+	background-color: orange;
+	height: 200px;
+	width: 20%;
+	float:left;
+	margin-bottom: 50px;
+}
+.things{
+	height: 200px;
+	width: 40%;
+	background-color: #89cff0;
+	float: left;
+	margin-bottom: 50px;
+	border-radius: 10px;
+
+}
+#paragraph{
+	clear: both;
+}
+.centered{
+	margin: auto;
+	background-color: #008080;
+	height: 200px;
+	width: 50%;
+	border-radius: 10px;
+}
+a{
+	text-decoration: none;
+}
+.bigshit{
+	font-weight: 200;
+	background-color: white;
+	clear:both
+	text-decoration: bold;
+	margin: 10px;
+}
